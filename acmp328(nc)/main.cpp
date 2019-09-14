@@ -5,7 +5,7 @@ int main(){
     ifstream in("input.txt");
     ofstream out("output.txt");
 
-    int n, s = 0;
+    long long n, s = 0;
     in >> n;
     s+=2*n;
 
