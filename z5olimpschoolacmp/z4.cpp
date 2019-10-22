@@ -1,5 +1,4 @@
 #include<fstream>
-#include<iostream>
 using namespace std;
 
 string gen(int n,int t,string b,string g){
@@ -8,7 +7,7 @@ string gen(int n,int t,string b,string g){
         a[i]=b+g;
     }
     if(t>0)a[n-1]+=b;
-    for(int i=0;i<t;i++){
+    for(int i=0;i<t-1;i++){
         a[i+1]+=b;
     }
     for(int i=0;i<n;i++){
