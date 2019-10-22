@@ -1,0 +1,22 @@
+M N
+1 1  MN
+1 2 NMN
+
+2 2  NMNM
+2 3  NMNMN
+2 4  NMNNMN
+
+3 3  NMNMNM
+3 4  NMNMNMN
+3 5  NMNNMNMN
+3 6  NMNNMNNMN
+
+4 4 0 - - NMNMNMNM
+4 5 1 + - NMNMNMNMN
+4 6 2 + 1 NMNNMNMNMN
+4 7 3 + 2 NMNNMNNMNMN
+4 8 4 + 3 NMNNMNNMNNMN
+
+1) кого больше - N кого меньше M
+2) N[M,2M] Иначе нет решения
+3) gen(M,(N-M>0):1,N-M-1?0,0)
